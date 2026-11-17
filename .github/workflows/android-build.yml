@@ -3,6 +3,9 @@ name: Build AI Forex Rafs APK
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
